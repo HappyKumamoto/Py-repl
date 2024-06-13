@@ -17,7 +17,13 @@
   
 <py-repl></py-repl>
   
-<!--   <py-script src="game.py"></py-script> -->
+<<py-script>
+import random
+random.seed(0)
+komas=("歩","と","歩","と","歩","と","歩","と","歩","と")
+a=random.sample(komas,5)
+print(a)
+</py-script>
   
 </body>
 </html>

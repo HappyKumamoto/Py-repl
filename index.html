@@ -11,10 +11,11 @@
 </head>
   
 <body>
-
+  <div id="python_ver"></div>
   <py-script>
     import sys
-    print('f バージョン:  {sys.version_info}')
+    pyscript.write('python_ver' , sys.version_info)
+    print('普通のプリント')
   </py-script>
   <py-repl></py-repl>
   

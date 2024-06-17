@@ -11,12 +11,15 @@
 </head>
   
 <body>
+  
+<!--   Pythonのバージョンを表示 -->
   <div id="python_ver"></div>
   <py-script>
     import sys
     pyscript.write('python_ver' , sys.version_info)
-    print('普通のプリント')
   </py-script>
+
+<!--   Pythonのreplを作る -->
   <py-repl></py-repl>
   
 </body>
